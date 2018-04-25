@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a49ae97-060a-4111-b33a-80c87706be58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedIn.php" afterPath="$PROJECT_DIR$/src/LinkedIn.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinkedIn.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedIn.php">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+            <state relative-caret-position="-5574">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,6 +74,11 @@
             <path>
               <item name="LinkedIn-API-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="LinkedIn-API-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LinkedIn-API-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedIn-API-client" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -89,6 +93,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="works&#9;FILE&#9;file:///Users/polstreff/Code/linkedin-api-package/LinkedIn-API-client/.idea/workspace.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,6 +110,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6a49ae97-060a-4111-b33a-80c87706be58" name="Default" comment="" />
@@ -113,12 +121,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518529997959</updated>
       <workItem from="1518529999306" duration="608000" />
-      <workItem from="1524657827875" duration="62000" />
+      <workItem from="1524657827875" duration="1999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="670000" />
+    <option name="totallyTimeSpent" value="2607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="652" y="-1177" width="1920" height="1177" extended-state="6" />
@@ -157,7 +165,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2958">
           <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1524657871000" expanded="false" signature="39:446" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="451:1455" ph=" Class LinkedIn lets you talk to LinkedIn api. ..." />
+            <marker date="1524657871000" expanded="true" signature="1501:9781" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="1511:1693" ph=" The OAuth access token received in exchange for a valid authorization ..." />
+            <marker date="1524657871000" expanded="true" signature="1739:1771" ph=" @var string format ..." />
+            <marker date="1524657871000" expanded="true" signature="1803:1843" ph=" @var string responseFormat ..." />
+            <marker date="1524657871000" expanded="true" signature="1885:1921" ph=" @var ResponseInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="1959:1992" ph=" @var RequestManager ..." />
+            <marker date="1524657871000" expanded="true" signature="2032:2064" ph=" @var Authenticator ..." />
+            <marker date="1524657871000" expanded="true" signature="2103:2143" ph=" @var UrlGeneratorInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="2181:2415" ph=" Constructor. ..." />
+            <marker date="1524657871000" expanded="true" signature="2516:2762" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="2771:2798" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="2838:3139" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="2929:2964" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3148:3175" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="3242:4299" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="3444:3520" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3528:3572" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3650:3763" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4040:4113" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4121:4192" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4308:4511" ph=" Modify and filter the request options. Make sure we use the correct query parameters and headers. ..." />
+            <marker date="1524657871000" expanded="true" signature="4573:5420" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="4618:4730" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4769:4880" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4967:5377" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4991:5080" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5105:5317" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5429:5456" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="5505:5836" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="5668:5748" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5845:5984" ph=" See docs for LinkedIn::api(). ..." />
+            <marker date="1524657871000" expanded="true" signature="6042:6109" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6118:6257" ph=" See docs for LinkedIn::api(). ..." />
+            <marker date="1524657871000" expanded="true" signature="6316:6384" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6393:6420" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6457:6543" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6552:6579" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6612:6675" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6684:6711" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6744:6918" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6783:6911" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="6927:7022" ph=" Get the default format to use when sending requests. ..." />
+            <marker date="1524657871000" expanded="true" signature="7059:7101" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7110:7137" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7178:7246" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7255:7353" ph=" Get the default data type to be returned as a response. ..." />
+            <marker date="1524657871000" expanded="true" signature="7400:7452" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7461:7488" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7549:7637" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7646:7673" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7713:7761" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7770:7797" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7836:8187" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7885:8083" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8004:8073" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8196:8223" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="8274:8475" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8334:8401" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8484:8511" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="8586:8666" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8675:8718" ph=" @return UrlGeneratorInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="8761:8918" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8811:8874" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8927:8954" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9018:9110" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9119:9146" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9202:9297" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9306:9333" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9402:9502" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9511:9547" ph=" @return RequestManager ..." />
+            <marker date="1524657871000" expanded="true" signature="9592:9642" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9651:9686" ph=" @return Authenticator ..." />
+            <marker date="1524657871000" expanded="true" signature="9730:9779" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -190,8 +274,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedIn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        <state relative-caret-position="862">
+          <caret line="128" column="38" lean-forward="true" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+          <folding>
+            <marker date="1524657871000" expanded="false" signature="39:446" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="451:1455" ph=" Class LinkedIn lets you talk to LinkedIn api. ..." />
+            <marker date="1524657871000" expanded="true" signature="1501:9781" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="1511:1693" ph=" The OAuth access token received in exchange for a valid authorization ..." />
+            <marker date="1524657871000" expanded="true" signature="1739:1771" ph=" @var string format ..." />
+            <marker date="1524657871000" expanded="true" signature="1803:1843" ph=" @var string responseFormat ..." />
+            <marker date="1524657871000" expanded="true" signature="1885:1921" ph=" @var ResponseInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="1959:1992" ph=" @var RequestManager ..." />
+            <marker date="1524657871000" expanded="true" signature="2032:2064" ph=" @var Authenticator ..." />
+            <marker date="1524657871000" expanded="true" signature="2103:2143" ph=" @var UrlGeneratorInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="2181:2415" ph=" Constructor. ..." />
+            <marker date="1524657871000" expanded="true" signature="2516:2762" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="2771:2798" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="2838:3139" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="2929:2964" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3148:3175" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="3242:4299" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="3444:3520" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3528:3572" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="3650:3763" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4040:4113" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4121:4192" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4308:4511" ph=" Modify and filter the request options. Make sure we use the correct query parameters and headers. ..." />
+            <marker date="1524657871000" expanded="true" signature="4573:5420" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="4618:4730" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4769:4880" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4967:5377" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="4991:5080" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5105:5317" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5429:5456" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="5505:5836" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="5668:5748" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="5845:5984" ph=" See docs for LinkedIn::api(). ..." />
+            <marker date="1524657871000" expanded="true" signature="6042:6109" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6118:6257" ph=" See docs for LinkedIn::api(). ..." />
+            <marker date="1524657871000" expanded="true" signature="6316:6384" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6393:6420" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6457:6543" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6552:6579" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6612:6675" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6684:6711" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="6744:6918" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="6783:6911" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="6927:7022" ph=" Get the default format to use when sending requests. ..." />
+            <marker date="1524657871000" expanded="true" signature="7059:7101" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7110:7137" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7178:7246" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7255:7353" ph=" Get the default data type to be returned as a response. ..." />
+            <marker date="1524657871000" expanded="true" signature="7400:7452" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7461:7488" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7549:7637" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7646:7673" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7713:7761" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7770:7797" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="7836:8187" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="7885:8083" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8004:8073" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8196:8223" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="8274:8475" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8334:8401" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8484:8511" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="8586:8666" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8675:8718" ph=" @return UrlGeneratorInterface ..." />
+            <marker date="1524657871000" expanded="true" signature="8761:8918" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="8811:8874" ph="..." />
+            <marker date="1524657871000" expanded="true" signature="8927:8954" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9018:9110" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9119:9146" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9202:9297" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9306:9333" ph=" {@inheritdoc} ..." />
+            <marker date="1524657871000" expanded="true" signature="9402:9502" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9511:9547" ph=" @return RequestManager ..." />
+            <marker date="1524657871000" expanded="true" signature="9592:9642" ph="{...}" />
+            <marker date="1524657871000" expanded="true" signature="9651:9686" ph=" @return Authenticator ..." />
+            <marker date="1524657871000" expanded="true" signature="9730:9779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5574">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
