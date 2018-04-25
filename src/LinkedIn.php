@@ -109,8 +109,12 @@ class LinkedIn implements LinkedInInterface
     {
         // Add access token to the headers
         $options['headers']['Authorization'] = sprintf('Bearer %s', (string) $this->getAccessToken());
-        
-        $requestFormat = null;
+
+        if (strpos($resource, 'v1') !== false) {
+            $requestFormat = $this->filterRequestOption($options);
+        } else {
+            $requestFormat = null;
+        }
 
         // Generate an url
         $url = $this->getUrlGenerator()->getUrl(
