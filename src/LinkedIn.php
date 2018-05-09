@@ -70,6 +70,8 @@ class LinkedIn implements LinkedInInterface
      */
     private $urlGenerator;
 
+    private $apiVersion;
+
     /**
      * Constructor.
      *
@@ -111,10 +113,12 @@ class LinkedIn implements LinkedInInterface
         $options['headers']['Authorization'] = sprintf('Bearer %s', (string) $this->getAccessToken());
 
         if (strpos($resource, 'v1') !== false) {
-            $requestFormat = $this->filterRequestOption($options);
+            $this->apiVersion = 'v1';
         } else {
-            $requestFormat = null;
+            $this->apiVersion = 'v2';
         }
+
+        $requestFormat = $this->filterRequestOption($options);
 
         // Generate an url
         $url = $this->getUrlGenerator()->getUrl(
@@ -145,29 +149,38 @@ class LinkedIn implements LinkedInInterface
      */
     protected function filterRequestOption(array &$options)
     {
+        $format = null;
+
         if (isset($options['json'])) {
-            $options['format'] = 'json';
+            $format = 'json';
             $options['body'] = json_encode($options['json']);
         } elseif (!isset($options['format'])) {
             // Make sure we always have a format
-            $options['format'] = $this->getFormat();
+            $format = $this->getFormat();
+        }
+
+        if ($this->apiVersion == 'v1') {
+            $format ? $options['format'] = $format : $format = $options['format'];
         }
 
         // Set correct headers for this format
-        switch ($options['format']) {
+        switch ($format) {
             case 'xml':
                 $options['headers']['Content-Type'] = 'text/xml';
                 break;
             case 'json':
                 $options['headers']['Content-Type'] = 'application/json';
                 $options['headers']['x-li-format'] = 'json';
-                $options['query']['format'] = 'json';
+
+                if ($this->apiVersion == 'v1') {
+                    $options['query']['format'] = 'json';
+                }
                 break;
             default:
                 // Do nothing
         }
 
-        return $options['format'];
+        return $format;
     }
 
     /**
